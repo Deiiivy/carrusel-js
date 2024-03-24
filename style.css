@@ -1,10 +1,49 @@
-.carousel-images {
-    background-image: url('assets/bugati.jpg');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+h1 {
+    text-align: center;
+}
+
+.carousel {
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px; 
+    height: 500px; 
+    border-radius: 20px;
+}
 
 .carousel-images {
-    width: 100%; /* O un valor específico */
-    height: 300px; /* O un valor específico */
-    background-size: cover; /* Para ajustar la imagen al contenedor */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.carousel > button {
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+#prevBtn {
+    left: 10px; 
+}
+
+#nextBtn {
+    right: 10px; 
 }
