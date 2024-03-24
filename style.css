@@ -1,0 +1,10 @@
+.carousel-images {
+    background-image: url('assets/bugati.jpg');
+}
+
+
+.carousel-images {
+    width: 100%; /* O un valor específico */
+    height: 300px; /* O un valor específico */
+    background-size: cover; /* Para ajustar la imagen al contenedor */
+}
